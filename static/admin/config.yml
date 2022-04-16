@@ -24,7 +24,6 @@ collections:
               multiple: true
         }
       - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "textmedia"
     label: "Text-Media"
     folder: "content/text-media"
