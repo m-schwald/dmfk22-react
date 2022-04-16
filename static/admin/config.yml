@@ -26,8 +26,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Select", name: "select", widget: "select",   
           options:
-          - { label: "Chicago", value: "ORD" }
-          - { label: "Paris", value: "CDG" }
-          - { label: "Tokyo", value: "HND" } 
+          - { label: "Chicago", value: "ORD" },
+          - { label: "Paris", value: "CDG" },
+          - { label: "Tokyo", value: "HND" },
         }
 
