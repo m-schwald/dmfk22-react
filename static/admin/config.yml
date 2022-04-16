@@ -19,10 +19,6 @@ collections:
           widget: "image",
           choose_url: true,
           default: "../../images/uploads/lion-lrw.png",
-          media_library:
-            config:
-              multiple: true
-        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "textmedia"
     label: "Text-Media"
