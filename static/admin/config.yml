@@ -13,12 +13,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Image",
-          name: "background",
-          widget: "image",
-          choose_url: true,
-          default: "../../images/uploads/lion-lrw.png",
+      - { label: "Image", name: "background", widget: "image", choose_url: true, default: "../../images/uploads/lion-lrw.png" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "textmedia"
     label: "Text-Media"
