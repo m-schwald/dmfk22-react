@@ -24,10 +24,5 @@ collections:
       - { label: "Layout", name: "layout", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Select", name: "select", widget: "select",   
-          options:
-          - { label: "Chicago", value: "ORD" },
-          - { label: "Paris", value: "CDG" },
-          - { label: "Tokyo", value: "HND" },
-        }
+      - { label: "Select", name: "select", widget: "select", options: ["Design", "UX", "Dev"] }
 
