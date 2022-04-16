@@ -23,16 +23,6 @@ collections:
     fields:
       - { label: "Layout", name: "layout", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Image",
-          name: "background",
-          widget: "image",
-          choose_url: true,
-          default: "../../images/uploads/lion-lrw.png",
-          media_library:
-            config:
-              multiple: true
-        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Select", name: "select", widget: "select",   
           options:
